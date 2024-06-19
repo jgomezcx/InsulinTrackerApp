@@ -446,9 +446,9 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                           ? FlutterFlowTheme.of(context)
                                               .alternate
                                           : FlutterFlowTheme.of(context)
-                                              .primaryBackground,
+                                              .secondaryBackground,
                                       FlutterFlowTheme.of(context)
-                                          .primaryBackground,
+                                          .secondaryBackground,
                                     ),
                                   ),
                                   child: Padding(

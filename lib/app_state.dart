@@ -57,25 +57,25 @@ class FFAppState extends ChangeNotifier {
   }
 
   void addToStringDateList(String value) {
-    _StringDateList.add(value);
+    StringDateList.add(value);
   }
 
   void removeFromStringDateList(String value) {
-    _StringDateList.remove(value);
+    StringDateList.remove(value);
   }
 
   void removeAtIndexFromStringDateList(int index) {
-    _StringDateList.removeAt(index);
+    StringDateList.removeAt(index);
   }
 
   void updateStringDateListAtIndex(
     int index,
     String Function(String) updateFn,
   ) {
-    _StringDateList[index] = updateFn(_StringDateList[index]);
+    StringDateList[index] = updateFn(_StringDateList[index]);
   }
 
   void insertAtIndexInStringDateList(int index, String value) {
-    _StringDateList.insert(index, value);
+    StringDateList.insert(index, value);
   }
 }
